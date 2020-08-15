@@ -1,0 +1,14 @@
+.toolbar {
+    height: 50px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+ .logo-css {
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 5px;
+ }
