@@ -2,7 +2,7 @@
     height: 50px;
     padding: 10px;
     align-items: center;
-    background-color: hsl(214, 33%, 21%);
+    background-color: rgba(0,0,0,0.5);
     color: white;
     font-weight: 600;
   }
