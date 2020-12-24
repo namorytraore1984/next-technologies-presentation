@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { CoreModule } from './core/core.module';
 import { BarreSuppComponent } from './core/barre-supp/barre-supp.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
-    NgbModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
