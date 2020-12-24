@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { CoreModule } from './core/core.module';
 import { BarreSuppComponent } from './core/barre-supp/barre-supp.component';
+import { LoginComponent } from './features/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
