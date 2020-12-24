@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'next-technologies-presentation';
+  test = "namory";
+
+  login1(formValues: any): void {
+    console.log("Connexion encours : " + JSON.stringify(formValues));
+  }
 }

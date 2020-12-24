@@ -2,13 +2,13 @@
   <div class="logo">
     <span>Gestionnaire de lifts</span>
   </div>
-  <div class="dropdown profile">
+  <div class="dropdown profile" *ngIf="auth && auth.userInfo != undefined">
     <button class="btn btn-promary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Namory
+      {{auth.userInfo?.firsName}}
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: rgba(156, 199, 150, 0.219);">
       <a class="dropdown-item" href="#">Profile</a>
-      <a class="dropdown-item" href="#">Se deconnecter</a>
+      <a class="dropdown-item" (click)="logout()">Se deconnecter</a>
     </div>
   </div>
 </div>

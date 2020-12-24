@@ -7,6 +7,7 @@ import { TestComponent } from './test/test.component';
 import { CoreModule } from './core/core.module';
 import { BarreSuppComponent } from './core/barre-supp/barre-supp.component';
 import { LoginComponent } from './features/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,9 +18,11 @@ import { LoginComponent } from './features/login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}
